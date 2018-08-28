@@ -17,7 +17,7 @@
 
 You have a toy robot on a table top, a grid of 5 x 5 units, there are no obstructions. You can issue commands to your robot allowing it to roam around the table top. But be careful, don't let it fall off!
 
-Create an app that allows [commands](#input-commands) to be issued to the robot. The robot should be prevented from failing off the table top to its destruction.
+Create an app that allows [commands](#input) to be issued to the robot. The robot should be prevented from failing off the table top to its destruction.
 
 A failed command should not stop the app, valid commands should be allowed.
 
