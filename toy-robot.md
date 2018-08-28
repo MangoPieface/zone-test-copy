@@ -6,12 +6,12 @@
 
 ## Introduction
 
-* 😍 Be sure to write comments and a README. Provide instructions on how to run the project and any notes about your solution.
-* 🤩 Feel free to use any .NET framework - hmmmmm actually lets avoid 1.1 - infact lets say any version of the framework past 4.6 as we use 4.6, 4.7 & .NET Core here
+* 😍  Be sure to write comments and a README. Provide instructions on how to run the project and any notes about your solution.
+* 🤩 Feel free to use any .NET framework - hmmmmm actually lets avoid 1.1 - actually lets say any version of the Framework past 4.6 (most projecs here are 4.6, 4.7 & .NET Core)
 * 🧐 We're most interested to see problem solving and your approach.
 * 😇 Keep it simple, keep it DRY, but don't over complicate or over engineer, comment and test as much as possible.
 * 🤓 Commit your code to a public Git repository and provide us with the URL.
-* Don't spend days on this, but do let us know what you think is missing and what you'd add given more time
+* 🤨 Don't spend days on this, but do let us know what you think is missing and what you'd add given more time
 
 ## Brief
 
