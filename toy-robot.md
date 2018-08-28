@@ -7,11 +7,11 @@
 ## Introduction
 
 * 😍  Be sure to write comments and a README. Provide instructions on how to run the project and any notes about your solution.
-* 🤩 Feel free to use any .NET framework - hmmmmm actually lets avoid 1.1 - actually lets say any version of the Framework past 4.6 (most projecs here are 4.6, 4.7 & .NET Core)
+* 🤩 Feel free to use any .NET framework - hmmmmm actually lets avoid 1.1 - actually lets say any version of the Framework past 4.6 (most projecs here are 4.6, 4.7 & .NET Core).
 * 🧐 We're most interested to see problem solving and your approach.
 * 😇 Keep it simple, keep it DRY, but don't over complicate or over engineer, comment and test as much as possible.
 * 🤓 Commit your code to a public Git repository and provide us with the URL.
-* 🤨 Don't spend days on this, but do let us know what you think is missing and what you'd add given more time
+* 🤨 Don't spend days on this, but do let us know what you think is missing and what you'd add given more time.
 
 ## Brief
 
@@ -29,7 +29,7 @@ The application should discard all commands until a valid `place()` command has 
 
 > Every command should provide output that the command has either succeeded or failed.
 
-### `place(x, y, facing)`
+### `place x,y,facing`
 
 * `x` and `y` are integers that relate to a location on the grid. Values that are outside the boundary of the grid should not be allowed.
 * `facing` is a string referencing the direction the robot is facing. Values `NORTH`, `SOUTH`, `EAST` or `WEST` are allowed.
@@ -50,9 +50,9 @@ Rotate the robot 90° clockwise.
 
 Outputs the robot's current grid location and facing direction.
 
-## Output
+## Example Input & Output
 
-* `place(0, 0, 'NORTH')`
+* `place 0,0,NORTH`
 * `move()`
 * `report()` _=> Output: 0, 1, NORTH_
 * `place(0, 0, NORTH)`
