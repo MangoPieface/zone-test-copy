@@ -34,36 +34,39 @@ The application should discard all commands until a valid `place()` command has 
 * `x` and `y` are integers that relate to a location on the grid. Values that are outside the boundary of the grid should not be allowed.
 * `facing` is a string referencing the direction the robot is facing. Values `NORTH`, `SOUTH`, `EAST` or `WEST` are allowed.
 
-### `move()`
+### `move`
 
 Moves the robot 1 grid unit in the direction it is facing unless that movement will cause the robot to fall off the grid.
 
-### `left()`
+### `left`
 
 Rotate the robot 90° anticlockwise/counterclockwise.
 
-### `right()`
+### `right`
 
 Rotate the robot 90° clockwise.
 
-### `report()`
+### `report`
 
 Outputs the robot's current grid location and facing direction.
 
 ## Example Input & Output
 
 * `place 0,0,NORTH`
-* `move()`
-* `report()` _=> Output: 0, 1, NORTH_
-* `place(0, 0, NORTH)`
-* `left()`
-* `report()` _=> Output: 0, 0, WEST_
+* `move`
+* `report` 
+*  **0, 1, NORTH**
+* `place 0, 0, NORTH`
+* `left`
+* `report` 
+*  **0, 0, WEST**
 * `place(1, 2, EAST)`
-* `move()`
-* `move()`
-* `left()`
-* `move()`
-* `report()` _=> Output: 3, 3, NORTH_
+* `move`
+* `move`
+* `left`
+* `move`
+* `report`
+*  **3, 3, NORTH**
 
 [zone-be-image]: https://img.shields.io/badge/-backend-lightgrey.svg?logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTMgMTQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+ICAgIDxwb2x5Z29uIGlkPSJTaGFwZSIgZmlsbD0iI0ZGRkZGRiIgZmlsbC1ydWxlPSJub256ZXJvIiBwb2ludHM9IjYuMjc3NjY4NzEgMTAuNzU0MjMzMSAxMi45OTU5NTA5IDAgMi43MzMwMDYxMyAwIDAuNzMwMDYxMzUgMy4xOTc2Njg3MSA2LjcxOTE0MTEgMy4xOTc2Njg3MSAwIDEzLjk1MTA0MjkgMTAuMjU5NTA5MiAxMy45NTEwNDI5IDEyLjI2MzMxMjkgMTAuNzUxNjU2NCI+PC9wb2x5Z29uPjwvc3ZnPg==&longCache=true&style=flat-square&colorA=2C2B39&colorB=1010E5
 [zone-be-url]: https://github.com/zone/
