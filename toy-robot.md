@@ -1,7 +1,5 @@
-# Toy Robot Challenge 
+# Toy Robot Task 
 You have a toy robot on a table top, a grid of 5 x 5 units, there are no obstructions. You can issue commands to your robot allowing it to roam around the table top. But be careful, don't let it fall off!
-
-
 
 ## Commands
 The robot should be able to process the following commands.
